@@ -16,3 +16,9 @@ else:
 
 print("Green" if c < 4 else "Red")#тернарный оператор
 
+
+
+
+#другой способ
+now = datetime.now()
+print("red" if ((now.minute % 5) > 3) else "green")

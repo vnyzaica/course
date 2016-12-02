@@ -1,7 +1,7 @@
 #coding:utf-8
 
 import datetime
-from datetime import datetime 
+from datetime import datetime #импорт модуля
 
 print(datetime.now()) #Время сейчас
 
@@ -14,5 +14,5 @@ if c < 4 :
 else:
     print("красный")
 
-print("Green" if c < 4 else "Red")
+print("Green" if c < 4 else "Red")#тернарный оператор
 

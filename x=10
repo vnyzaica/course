@@ -1,0 +1,10 @@
+#coding:utf-8
+
+f = open('some_file','w')
+print (dir(f))
+x = int(input('Введите x'))
+if x > 3:
+    f.write(str(x) + '\n')
+    
+
+f.close()

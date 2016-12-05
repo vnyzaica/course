@@ -1,0 +1,1 @@
+print( sorted (["b","arc","z"], key=lambda i:len(i)))
